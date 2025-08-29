@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎉 Interactive Web Page with JavaScript</h1>
+
+    <!-- Part 1: Buttons and Event Handling -->
+    <section id="events">
+        <h2>Part 1: Event Handling</h2>
+        <button id="clickBtn">Click Me!</button>
+        <p id="clickMessage"></p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section id="interactive">
+        <h2>Part 2: Interactive Features</h2>
+
+        <!-- Feature 1: Light/Dark Mode Toggle -->
+        <button id="themeToggle">Toggle Light/Dark Mode</button>
+
+        <!-- Feature 2: Counter -->
+        <div>
+            <p>Counter: <span id="counterValue">0</span></p>
+            <button id="incrementBtn">Increment</button>
+        </div>
+    </section>
+
+    <!-- Part 3: Custom Form Validation -->
+    <section id="formSection">
+        <h2>Part 3: Custom Form Validation</h2>
+        <form id="myForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <span class="error" id="nameError"></span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email">
+                <span class="error" id="emailError"></span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <span class="error" id="passwordError"></span>
+            </div>
+            <button type="submit">Submit</button>
+            <p id="formSuccess"></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
